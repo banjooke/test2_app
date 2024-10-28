@@ -1,5 +1,10 @@
 import streamlit as st
-from langchain_openai.chat_models import ChatOpenAI
+from langchain_openai import OpenAI
+from langchain_openai import ChatOpenAI
+import sys
+import langchain
+import langchain_openai
+import openai
 
 st.title("🦜🔗 Quickstart App")
 
